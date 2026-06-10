@@ -1,0 +1,22 @@
+﻿using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
+
+
+namespace Application.Interfaces
+{
+    public interface IBankDbcontext
+    {
+        DbSet<Account> Accounts { get; set; }
+        DbSet<Transaction> Transactions { get; set; }
+        DbSet<User> Users { get; set; }
+        DbSet<RefreshToken> RefreshTokens { get; set; }
+        DbSet<AuditLog> AuditLogs { get; set; }
+        DbSet<AccountApprovalRequest> AccountApprovalRequests { get; set; }
+        DbSet<IdempotencyRecord> IdempotencyRecords { get; set; }
+        DbSet<TransferIntents> TransferIntents { get; set; }
+
+        Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade Database { get; }
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+    }
+}
