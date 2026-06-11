@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\daing\\source\\repos\\Domain\\",
+  "WorkspaceRootPath": "C:\\source\\basic-core-banking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\users\\daing\\source\\repos\\domain\\infrastructure\\configurations\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|c:\\source\\basic-core-banking\\application\\interfaces\\ibankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5722BE-99FF-4799-9A17-CF4F95C291C6}|Domain\\Domain.csproj|c:\\source\\basic-core-banking\\domain\\enums\\accountlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5722BE-99FF-4799-9A17-CF4F95C291C6}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\accountlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5722BE-99FF-4799-9A17-CF4F95C291C6}|Domain\\Domain.csproj|c:\\source\\basic-core-banking\\domain\\enums\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5722BE-99FF-4799-9A17-CF4F95C291C6}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,15 +94,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BankDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\daing\\source\\repos\\Domain\\Infrastructure\\Configurations\\BankDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\BankDbContext.cs",
-              "ToolTip": "C:\\Users\\daing\\source\\repos\\Domain\\Infrastructure\\Configurations\\BankDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Configurations\\BankDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AccountType.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Domain\\Enums\\AccountType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AccountType.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Domain\\Enums\\AccountType.cs",
+              "RelativeToolTip": "Domain\\Enums\\AccountType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T06:45:47.693Z",
+              "WhenOpened": "2026-06-10T07:50:41.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountLevel.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Domain\\Enums\\AccountLevel.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AccountLevel.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Domain\\Enums\\AccountLevel.cs",
+              "RelativeToolTip": "Domain\\Enums\\AccountLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:40:52.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IBankDbcontext.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Application\\Interfaces\\IBankDbcontext.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBankDbcontext.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Application\\Interfaces\\IBankDbcontext.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBankDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:09:05.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:09:00.018Z",
               "EditorCaption": ""
             }
           ]

@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\daing\\source\\repos\\Domain\\",
+  "WorkspaceRootPath": "C:\\source\\basic-core-banking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\users\\daing\\source\\repos\\domain\\infrastructure\\configurations\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\authentication\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\authentication\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,15 +90,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BankDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\daing\\source\\repos\\Domain\\Infrastructure\\Configurations\\BankDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\BankDbContext.cs",
-              "ToolTip": "C:\\Users\\daing\\source\\repos\\Domain\\Infrastructure\\Configurations\\BankDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Configurations\\BankDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T06:45:47.693Z",
+              "WhenOpened": "2026-06-11T07:27:56.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\Authentication\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Authentication\\JwtSettings.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\Authentication\\JwtSettings.cs",
+              "RelativeToolTip": "Infrastructure\\Authentication\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:21:41.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:05:27.441Z",
               "EditorCaption": ""
             }
           ]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7F4tKcslt+k=",
+  "dgSpecHash": "70LnKxmHlo0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\daing\\source\\repos\\Domain\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\source\\basic-core-banking\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

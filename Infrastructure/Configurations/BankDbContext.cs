@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace Infrastructure.Configurations
 {
-    public class BankDbContext(DbContextOptions<BankDbContext> options) : DbContext(options), IBankDbcontext
+    public class BankDbContext(DbContextOptions<BankDbContext> options) : DbContext(options), IBankDbContext
     {
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Transaction> Transactions { get; set; }

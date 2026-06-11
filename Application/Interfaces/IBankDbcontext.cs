@@ -5,7 +5,7 @@ using System.ComponentModel;
 
 namespace Application.Interfaces
 {
-    public interface IBankDbcontext
+    public interface IBankDbContext
     {
         DbSet<Account> Accounts { get; set; }
         DbSet<Transaction> Transactions { get; set; }
