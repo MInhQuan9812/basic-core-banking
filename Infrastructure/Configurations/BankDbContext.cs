@@ -19,7 +19,6 @@ namespace Infrastructure.Configurations
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            // Here you can add any logic before saving changes, such as auditing, validation, etc.
             return base.SaveChangesAsync(cancellationToken);
         }
 
@@ -27,7 +26,6 @@ namespace Infrastructure.Configurations
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-            // Configure relationships, indexes, constraints, etc. here if needed
         }
 
     }
