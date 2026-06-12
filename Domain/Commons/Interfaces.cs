@@ -14,7 +14,7 @@ namespace Domain.Commons
 
     public interface IAuditableEntity
     {
-        public int? CreateBy { get; set; }
-        public int? UpdateBy { get; set; }
+        public int? CreatedBy { get; set; }
+        public int? UpdatedBy { get; set; }
     }
 }

@@ -47,7 +47,7 @@ namespace Infrastructure.Authentication
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Claims = claims,
-                Expires = DateTime.UtcNow.AddMinutes(30), 
+                Expires = DateTime.UtcNow.AddMinutes(30),
                 Issuer = _jwtSettings.Issuer,
                 Audience = _jwtSettings.Audience,
                 SigningCredentials = new SigningCredentials(
@@ -57,6 +57,7 @@ namespace Infrastructure.Authentication
             //var token = TokenHandler.CreateToken(tokenDescriptor);
             return TokenHandler.CreateToken(tokenDescriptor);
         }
+
         public string GenerateRefreshToken()
         {
 
