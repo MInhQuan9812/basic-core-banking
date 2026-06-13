@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
 using static Application.Dtos.AuthDtos;
 
-namespace API.Common
+namespace API.Controllers
 {
     public class AuthController(IAuthService service) : BaseController
     {

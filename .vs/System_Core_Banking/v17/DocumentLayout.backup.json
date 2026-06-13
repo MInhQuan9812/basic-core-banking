@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\source\\basic-core-banking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\common\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\common\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|c:\\source\\basic-core-banking\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5722BE-99FF-4799-9A17-CF4F95C291C6}|Domain\\Domain.csproj|c:\\source\\basic-core-banking\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5722BE-99FF-4799-9A17-CF4F95C291C6}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|c:\\source\\basic-core-banking\\application\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|solutionrelative:application\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|c:\\source\\basic-core-banking\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -24,19 +28,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 17,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RefreshToken.cs",
-              "DocumentMoniker": "C:\\source\\basic-core-banking\\Domain\\Entities\\RefreshToken.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\RefreshToken.cs",
-              "ToolTip": "C:\\source\\basic-core-banking\\Domain\\Entities\\RefreshToken.cs",
-              "RelativeToolTip": "Domain\\Entities\\RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:17:06.952Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -103,26 +94,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Application\\Common\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\ServiceResult.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Application\\Common\\ServiceResult.cs",
+              "RelativeToolTip": "Application\\Common\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T04:32:35.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Common\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Common\\AuthController.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\Common\\AuthController.cs",
+              "RelativeToolTip": "API\\Common\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T04:27:58.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\source\\basic-core-banking\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
               "ToolTip": "C:\\source\\basic-core-banking\\Application\\Services\\AuthService.cs",
               "RelativeToolTip": "Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwEoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T14:00:58.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\source\\basic-core-banking\\Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
               "ToolTip": "C:\\source\\basic-core-banking\\Application\\Interfaces\\IAuthService.cs",
               "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T14:00:54.912Z",
               "EditorCaption": ""

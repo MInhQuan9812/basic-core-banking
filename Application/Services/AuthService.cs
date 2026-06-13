@@ -42,7 +42,7 @@ namespace Application.Services
             {
                 UserId = user.Id,
                 RefeshtokenValue = HashToken(rawRefreshToken),
-                ExpiresAt = DateTime.UtcNow.AddMinutes(5),
+                ExpiresAt = DateTime.UtcNow.AddHours(1),
                 IsRevoked = false
             };
             await context.RefreshTokens.AddAsync(refreshTokenEntity);
@@ -70,7 +70,7 @@ namespace Application.Services
             {
                 UserId = user.Id,
                 RefeshtokenValue = HashToken(jwt.GenerateRefreshToken()),
-                ExpiresAt = DateTime.UtcNow.AddMinutes(5),
+                ExpiresAt = DateTime.UtcNow.AddHours(1),
                 IsRevoked = false
             };
             storedToken.IsRevoked = true;
