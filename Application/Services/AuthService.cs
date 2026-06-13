@@ -25,7 +25,6 @@ namespace Application.Services
         }
         public async Task<ServiceResult<AuthDtos.LoginResponseDto>> LoginAsync(AuthDtos.LoginDto request)
         {
-            //var user = await context.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Email == request.Email);
             var user = await context.Users
                 .AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Email == request.Email);
@@ -50,12 +49,35 @@ namespace Application.Services
             await context.SaveChangesAsync();
             var refreshTokenDto = refreshTokenEntity.Adapt<RefreshTokenDto>();
             return ServiceResult<LoginResponseDto>.SuccessResult(new LoginResponseDto(accessToken, refreshTokenDto, userDto));
-
         }
 
-        public Task<ServiceResult<AuthDtos.RefreshTokenDto>> RefreshToken(string refreshToken)
+        public async Task<ServiceResult<AuthDtos.RefreshTokenDto>> RefreshToken(string refreshToken)
         {
-            throw new NotImplementedException();
+            var storedToken = await context.RefreshTokens
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.RefeshtokenValue == HashToken(refreshToken));
+            if (storedToken == null || storedToken.IsRevoked || storedToken.ExpiresAt < DateTime.UtcNow)
+            {
+                return ServiceResult<RefreshTokenDto>.Failure("Invalid refresh token", 401);
+            }
+            var user = await context.Users.FirstOrDefaultAsync(x => x.Id == storedToken.UserId);
+            if (user == null)
+            {
+                return ServiceResult<RefreshTokenDto>.Failure("User not found", 404);
+            }
+            var newAccessToken = jwt.GenerateToken(user);
+            var newRefreshToken = new RefreshToken
+            {
+                UserId = user.Id,
+                RefeshtokenValue = HashToken(jwt.GenerateRefreshToken()),
+                ExpiresAt = DateTime.UtcNow.AddMinutes(5),
+                IsRevoked = false
+            };
+            storedToken.IsRevoked = true;
+            await context.RefreshTokens.AddAsync(newRefreshToken);
+            await context.SaveChangesAsync();
+            var response = newRefreshToken.Adapt<RefreshTokenDto>() with { Token = newAccessToken };
+            return ServiceResult<RefreshTokenDto>.SuccessResult(response);
         }
 
         public async Task<ServiceResult<AuthDtos.UserDto>> RegisterAsync(AuthDtos.RegisterDto request)
