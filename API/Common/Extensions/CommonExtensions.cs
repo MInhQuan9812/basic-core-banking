@@ -1,4 +1,6 @@
 ﻿using API.Filters;
+using API.Middlewares;
+using Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.OpenApi.Models;
@@ -6,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace API.Common.Extensions
 {
-    public static class CommonExtentions
+    public static class CommonExtensions
     {
         public static IServiceCollection AddWebApiConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
@@ -18,8 +20,6 @@ namespace API.Common.Extensions
             });
 
             services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen();
-
             services.AddHttpContextAccessor();
 
             services.Configure<ForwardedHeadersOptions>(options =>
@@ -31,7 +31,8 @@ namespace API.Common.Extensions
 
             services
                  .AddDefaultOpenApi(configuration)
-                 .AddDefaultAuthentication(configuration);
+                 .AddDefaultAuthentication(configuration)
+                 .AddInfrastructure(configuration);
             return services;
         }
         public static IServiceCollection AddDefaultAuthentication(this IServiceCollection service, IConfiguration configuration)
@@ -43,9 +44,8 @@ namespace API.Common.Extensions
                 options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer("Bearer", options =>
             {
-                options.Authority = configuration["IdentityServer:Authority"];
                 options.RequireHttpsMetadata = false;
-                options.Audience = configuration["IdentityServer:Audience"];
+                options.SaveToken = true;
                 options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
                 {
                     ValidateAudience = true,
@@ -94,7 +94,7 @@ namespace API.Common.Extensions
         }
         public static IApplicationBuilder AddCommonApplicationBuilder(this WebApplication app)
         {
-            if (!app.Environment.IsProduction())
+            if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
@@ -106,12 +106,11 @@ namespace API.Common.Extensions
                 .SetIsOriginAllowed(origin => true)
                 .AllowCredentials());
 
-            //app.UseMiddleware<ErrorHandlingMiddleWare>();
+            app.UseMiddleware<RequestTimingHandler>();
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
-            app.Run();
             return app;
         }
     }

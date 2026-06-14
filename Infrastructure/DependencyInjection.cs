@@ -32,7 +32,6 @@ namespace Infrastructure
             services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
             services.AddScoped<IBankDbContext>(provider => provider.GetRequiredService<BankDbContext>());
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
-
             return services;
         }
     }

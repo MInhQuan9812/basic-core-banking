@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\source\\basic-core-banking\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\filters\\authorizecheckoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\filters\\authorizecheckoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\common\\extensions\\commonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\common\\extensions\\commonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|c:\\source\\basic-core-banking\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 19,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommonExtensions.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Common\\Extensions\\CommonExtensions.cs",
+              "RelativeDocumentMoniker": "API\\Common\\Extensions\\CommonExtensions.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\Common\\Extensions\\CommonExtensions.cs",
+              "RelativeToolTip": "API\\Common\\Extensions\\CommonExtensions.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAApwHAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T02:55:51.025Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -74,6 +108,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\WeatherForecast.cs",
+              "RelativeToolTip": "API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T02:54:53.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T02:54:46.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T02:53:09.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorizeCheckOperationFilter.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Filters\\AuthorizeCheckOperationFilter.cs",
+              "RelativeDocumentMoniker": "API\\Filters\\AuthorizeCheckOperationFilter.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\Filters\\AuthorizeCheckOperationFilter.cs",
+              "RelativeToolTip": "API\\Filters\\AuthorizeCheckOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T02:52:53.433Z",
+              "EditorCaption": ""
             }
           ]
         },
