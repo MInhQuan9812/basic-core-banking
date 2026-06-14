@@ -16,7 +16,10 @@ namespace Domain.Entities
         public string PhoneNumber { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
         public UserRole userRole { get; set; } = UserRole.User;
-        public virtual ICollection<Account> Accounts { get; set; } = new List<Account>();
+
+        // Unnecessary, makes the query heavy.
+        //public virtual RefreshToken? RefreshToken { get; set; }
+        //public virtual ICollection<Account> Accounts { get; set; } = new List<Account>(); 
 
     }
 }

@@ -16,8 +16,7 @@ namespace Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-
-            var connectionString = configuration.GetConnectionString("DefaultConnection")
+            var connectionString = configuration.GetConnectionString("ConnectionStrings:DefaultConnection")
                 ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
             services.AddDbContextPool<BankDbContext>(options =>

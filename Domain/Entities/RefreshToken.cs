@@ -9,7 +9,7 @@ namespace Domain.Entities
 {
     public class RefreshToken : BaseEntity
     {
-        public required string RefeshtokenValue { get; set; }
+        public required string RefreshTokenValue { get; set; }
         public DateTime ExpiresAt { get; set; }
         public bool IsRevoked { get; set; }
         public int UserId { get; set; }

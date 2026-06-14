@@ -13,6 +13,7 @@ namespace Infrastructure.Configurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
+            builder.ToTable(nameof(User));
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
             builder.Property(x => x.FullName).IsRequired().HasMaxLength(100);
@@ -25,8 +26,9 @@ namespace Infrastructure.Configurations
             builder.Property(x => x.UpdatedAt);
             builder.Property(x => x.IsDeleted).HasDefaultValue(false);
             builder.Property(x => x.DeletedAt);
-            builder.Property(x => x.CreateBy);
-            builder.Property(x => x.UpdateBy);
+            builder.Property(x => x.CreatedBy);
+            builder.Property(x => x.UpdatedBy);
+
 
             builder.HasQueryFilter(x => !x.IsDeleted);
         }

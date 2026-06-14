@@ -41,7 +41,7 @@ namespace Application.Services
             var refreshTokenEntity = new RefreshToken
             {
                 UserId = user.Id,
-                RefeshtokenValue = HashToken(rawRefreshToken),
+                RefreshTokenValue = HashToken(rawRefreshToken),
                 ExpiresAt = DateTime.UtcNow.AddHours(1),
                 IsRevoked = false
             };
@@ -55,7 +55,7 @@ namespace Application.Services
         {
             var storedToken = await context.RefreshTokens
                 .AsNoTracking()
-                .FirstOrDefaultAsync(x => x.RefeshtokenValue == HashToken(refreshToken));
+                .FirstOrDefaultAsync(x => x.RefreshTokenValue == HashToken(refreshToken));
             if (storedToken == null || storedToken.IsRevoked || storedToken.ExpiresAt < DateTime.UtcNow)
             {
                 return ServiceResult<RefreshTokenDto>.Failure("Invalid refresh token", 401);
@@ -69,7 +69,7 @@ namespace Application.Services
             var newRefreshToken = new RefreshToken
             {
                 UserId = user.Id,
-                RefeshtokenValue = HashToken(jwt.GenerateRefreshToken()),
+                RefreshTokenValue = HashToken(jwt.GenerateRefreshToken()),
                 ExpiresAt = DateTime.UtcNow.AddHours(1),
                 IsRevoked = false
             };

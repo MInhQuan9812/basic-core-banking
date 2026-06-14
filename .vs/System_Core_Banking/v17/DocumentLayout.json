@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\source\\basic-core-banking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\configurations\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\configurations\\transactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\transactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|c:\\source\\basic-core-banking\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD4AAF8-8554-4BB2-969E-7ACE18B1F5CA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\filters\\authorizecheckoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\filters\\authorizecheckoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\common\\extensions\\commonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\common\\extensions\\commonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|c:\\source\\basic-core-banking\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF676D84-6880-4A6B-9595-D4DB7CC304C9}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|c:\\source\\basic-core-banking\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DEFA4E-A6FA-4F46-9037-A0849817B7C3}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,20 +29,33 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "DockedWidth": 239,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommonExtensions.cs",
-              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Common\\Extensions\\CommonExtensions.cs",
-              "RelativeDocumentMoniker": "API\\Common\\Extensions\\CommonExtensions.cs",
-              "ToolTip": "C:\\source\\basic-core-banking\\API\\Common\\Extensions\\CommonExtensions.cs",
-              "RelativeToolTip": "API\\Common\\Extensions\\CommonExtensions.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAApwHAAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T02:55:51.025Z",
+              "WhenOpened": "2026-06-14T07:44:58.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T07:44:03.327Z",
               "EditorCaption": ""
             },
             {
@@ -111,54 +124,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
-              "ToolTip": "C:\\source\\basic-core-banking\\API\\WeatherForecast.cs",
-              "RelativeToolTip": "API\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T02:54:53.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\source\\basic-core-banking\\Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\source\\basic-core-banking\\Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T02:54:46.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\source\\basic-core-banking\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "AccountConfiguration.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\Configurations\\AccountConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\AccountConfiguration.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\Configurations\\AccountConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\AccountConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T02:53:09.365Z",
+              "WhenOpened": "2026-06-14T07:32:04.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthorizeCheckOperationFilter.cs",
-              "DocumentMoniker": "C:\\source\\basic-core-banking\\API\\Filters\\AuthorizeCheckOperationFilter.cs",
-              "RelativeDocumentMoniker": "API\\Filters\\AuthorizeCheckOperationFilter.cs",
-              "ToolTip": "C:\\source\\basic-core-banking\\API\\Filters\\AuthorizeCheckOperationFilter.cs",
-              "RelativeToolTip": "API\\Filters\\AuthorizeCheckOperationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Title": "RefreshTokenConfiguration.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\Configurations\\RefreshTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\RefreshTokenConfiguration.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\Configurations\\RefreshTokenConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\RefreshTokenConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T02:52:53.433Z",
+              "WhenOpened": "2026-06-14T07:22:08.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionConfiguration.cs",
+              "DocumentMoniker": "C:\\source\\basic-core-banking\\Infrastructure\\Configurations\\TransactionConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\TransactionConfiguration.cs",
+              "ToolTip": "C:\\source\\basic-core-banking\\Infrastructure\\Configurations\\TransactionConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\TransactionConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T07:07:26.297Z",
               "EditorCaption": ""
             }
           ]

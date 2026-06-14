@@ -18,6 +18,6 @@ namespace Domain.Entities
         public AccountLevel AccountLevel { get; set; } = AccountLevel.Basic;
         public byte[] RowVersion { get; set; } = Guid.NewGuid().ToByteArray();
         public virtual User User { get; set; } = null!;
-        public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+        //public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
     }
 }

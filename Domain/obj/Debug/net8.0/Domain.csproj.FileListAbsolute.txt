@@ -9,3 +9,15 @@ C:\Users\daing\source\repos\Domain\Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\daing\source\repos\Domain\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\daing\source\repos\Domain\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\daing\source\repos\Domain\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.dll
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\Domain.pdb
+C:\source\basic-core-banking\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\source\basic-core-banking\Domain\bin\Debug\net8.0\Domain.dll
+C:\source\basic-core-banking\Domain\bin\Debug\net8.0\Domain.pdb
+C:\source\basic-core-banking\Domain\obj\Debug\net8.0\ref\Domain.dll

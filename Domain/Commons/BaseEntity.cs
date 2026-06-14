@@ -13,7 +13,8 @@ namespace Domain.Commons
         public DateTime UpdatedAt { get; set; }
         public bool IsDeleted { get; set; } = false;
         public DateTime? DeletedAt { get; set; }
-        public int? CreateBy { get; set; }
-        public int? UpdateBy { get; set; }
+        public int? CreatedBy { get; set; }
+        public int? UpdatedBy { get; set; }
+
     }
 }
